@@ -1,0 +1,77 @@
+/* Esse é nosso arquivo CSS , aqui iremos estilizar o nosso projeto.*/
+
+/* Primeiro passo é criar o seletor para o nosso container */
+
+#container{
+    width: 375px;
+    height: 667px;
+    /* usaremos um background feito pelo UI designer, então usaremos um background-image para identificar o background */
+    background-image: url( /frontend/assets/background.jpg);
+    background-position: center;
+    margin: 0 auto; /* faz ficar no meio da tela*/
+}
+.logo{
+    width: 187px;
+    height: 155px;
+    margin-top: 256px;
+    margin-left: 94px;
+    margin-right: 94px;
+}
+.buttonComecar{
+    width: 233px;
+    height: 37px;
+    background-color: #FFFFFF;
+    border-radius: 100px;
+    margin-top: 151px;
+    margin-left: 71px;
+    margin-right: 71px;
+    text-align:center;
+    font-family: Century Gothic;
+    font-weight: bold;
+    color: #6542AA;
+    border:none;
+}
+.buttonComecar:hover{
+    background-color: #6542AA;
+    color: #FFFFFF;
+    cursor:pointer;
+    transition:0.3s;
+    border: 1px solid #272727;
+    opacity: 0.8;
+}
+
+#containerLogin{
+    width: 375px;
+    height: 667px;
+    background-image: url(/frontend/assets/background-login.jpg);
+    background-position: center;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.LoginUserImage{
+    width: 88px;
+    height: 88px;
+    margin-top: 52px;
+    margin-left: 143px;
+    margin-right: 143px;
+}
+
+h1{
+    font-family: Century Gothic;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+#caixaLogin{
+    width:289px;
+    height:350px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.1);
+    margin-top: 19px;
+}
