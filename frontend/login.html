@@ -15,26 +15,26 @@
         <h1>Faça o Login</h1>
        
         <div id="caixaLogin">
-            <div class="userBox"></div>
-            <div class="passwordBox"></div>
+            <label for="UsernameBox"></label>
+            <input type="text" id="UsernameBox" maxlength="10" 
+            minlength="5" placeholder="Username" required> 
 
-            <span>Remember me</span>
-            <span2>Forgot Password?</span2>
-           
+            <label for="passwordBox"></label>
+            <input type="password" id="passwordBox" maxlength="10" 
+            minlength="5" placeholder="Password" required>
+
+
+            <div class="containerRememberForgot">
+                    <input type="checkbox" id="checkboxRemember">
+                    <span>Remember me</span>
+                    <a href="XXXXXXXXXXXXXX"> Forgot Password? </a>
+           </div>
+           <div class="containerLOGIN">
             <button id="loginButton">LOGIN</button>
-           
-             <a id href="link a definir">Not a member? </a>  
-             <button id="createAccountButton">Create an account</button>
-          
-            
-               
-            
-            
-       </div>
-       
-
-        
-
+            <a id href="link a definir">Not a member? </a>  
+            <button id="createAccountButton">Create an account</button>
+           </div>
+        </div>
     </div>
     
 </body>
