@@ -329,5 +329,227 @@ a{
     outline:none;
 }
 
-#containerQuaseLa {}
-#
+#linha-roxa{
+    width: 3px;
+    height: 50px;
+    background-color: #6542AA;
+    margin-left: 66px;
+    position: absolute;
+    margin-top: 22px;
+    margin-left:23px;
+}
+
+#caixa-formulario span{
+    font-family: Century Gothic;
+    font-size: 30px;
+    color: #6542AA;
+    font-weight: bold;
+    margin-left: 35px;
+    margin-top: 18px;
+}
+
+#caixa-formulario span2{
+    font-family: Century Gothic;
+    font-size: 10px;
+    color: #6542AA;
+    font-weight: normal;
+    margin-left: 37px;
+}
+
+#caixa-formulario {
+    background-color: white;
+    width: 289.67px;
+    height: 360.28px;
+    border-radius: 10px;
+    border: none;
+    display:flex;
+    flex-direction: column;
+    margin-left: 42.66px;
+    margin-right: 42.66px;
+    margin-top: 23.8px;
+    display: flex;
+    flex-direction: column;
+}
+#formulariocadastro{
+    font-family: Century Gothic;
+    font-size: 15px;
+    margin-top:30px;
+    align-items: center;
+}
+
+#caixa-formulario input{
+    width: 235px;
+    margin: auto;
+    
+}
+
+#buttonTermos{
+    width: 278px;
+    height: 33.73px;
+    border-radius: 10px;
+    color:#6542AA;
+    font-family: Century Gothic;
+    Font-weight: bold;
+    font-size: 14px;
+    border: none;
+    margin-top: 18px;
+    margin-left: 48px;
+}
+
+#buttonTermos:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+    cursor: pointer;
+    color: white;
+    background-color: #00A859;
+}
+
+#buttonFinalizar{
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+    margin-top: 24px;
+    margin-left: 110px;
+    background-image: url(/assets/okiconcinza.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+#buttonFinalizar:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+    cursor: pointer;
+    background-image: url(/assets/okicon.png);
+}
+
+#container-title #foto-perfil{
+    border-radius: 50%;
+    width:46px;
+    height: 46px;
+    border: none;
+    background-image: url(/assets/home-foto-perfil.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left:25px;
+    margin-top: 15.29px;
+}
+
+#container-title #foto-perfil:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#container-title span{
+    font-family: Century Gothic;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top:30px;
+    position: absolute;
+    margin-left: 9px;
+}
+
+/* a partir daqui é o css para o visual do app após estar logado */
+
+#container-home{
+    width: 375px;
+    height: 667px;
+    background-color: #7B62E4;
+    background-position: center;
+    margin: 0 auto; /* faz ficar no meio da tela*/
+}
+.white-line{
+    width: 375px;
+    height: 1px;
+    background-color: white;
+    margin-top: 8px;
+    opacity: 0.2;
+    
+}
+/* css pra os botoes */
+
+#button-compras{
+    border-radius: 50%;
+    width:157px;
+    height:157px;
+    background-image: url();
+    background-position: center;
+    border:none;
+    background-image: url(/assets/home-compras.png);
+    background-repeat: no-repeat;
+    margin-top: 36px;
+    margin-left: 26px;
+}
+#button-calendario{
+    border-radius: 50%;
+    width:157px;
+    height:157px;
+    background-image: url();
+    background-position: center;
+    border:none;
+    background-image: url(/assets/home-calendar.png);
+    background-repeat: no-repeat;
+    margin-left: 7px;
+}
+#button-limpeza{
+    border-radius: 50%;
+    width:157px;
+    height:157px;
+    background-image: url();
+    background-position: center;
+    border:none;
+    background-image: url(/assets/home-cleaning.png);
+    background-repeat: no-repeat;
+    margin-left: 26px;
+    margin-top: 17px;
+}
+#button-filmes{
+    border-radius: 50%;
+    width:157px;
+    height:157px;
+    background-image: url();
+    background-position: center;
+    border:none;
+    background-image: url(/assets/home-movies.png);
+    background-repeat: no-repeat;
+    margin-left: 7px;
+
+}
+#button-financas{
+    border-radius: 50%;
+    width:94px;
+    height:94px;
+    background-image: url();
+    background-position: center;
+    border:none;
+    background-image: url(/assets/home-money.png);
+    background-repeat: no-repeat;
+    margin-left: 33px;
+    margin-top: 10px;
+
+}
+#button-receitas{
+    border-radius: 50%;
+    width:94px;
+    height:94px;
+    background-image: url();
+    background-position: center;
+    border:none;
+    background-image: url(/assets/home-food.png);
+    background-repeat: no-repeat;
+    margin-left: 9px;
+}
+#button-viagens{
+    border-radius: 50%;
+    width:94px;
+    height:94px;
+    background-image: url();
+    background-position: center;
+    border:none;
+    background-image: url(/assets/home-travel.png);
+    background-repeat: no-repeat;
+    margin-left: 9px;
+}
+
