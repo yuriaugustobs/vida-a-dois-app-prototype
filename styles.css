@@ -458,7 +458,10 @@ a{
     height: 667px;
     background-color: #7B62E4;
     background-position: center;
-    margin: 0 auto; /* faz ficar no meio da tela*/
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 .white-line{
     width: 375px;
@@ -482,6 +485,50 @@ a{
     margin-top: 36px;
     margin-left: 26px;
 }
+
+#button-compras:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#button-calendario:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#button-limpeza:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#button-filmes:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#button-financas:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#button-receitas:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#button-viagens:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
 #button-calendario{
     border-radius: 50%;
     width:157px;
@@ -493,6 +540,7 @@ a{
     background-repeat: no-repeat;
     margin-left: 7px;
 }
+
 #button-limpeza{
     border-radius: 50%;
     width:157px;
@@ -505,6 +553,7 @@ a{
     margin-left: 26px;
     margin-top: 17px;
 }
+
 #button-filmes{
     border-radius: 50%;
     width:157px;
@@ -515,8 +564,8 @@ a{
     background-image: url(/assets/home-movies.png);
     background-repeat: no-repeat;
     margin-left: 7px;
-
 }
+
 #button-financas{
     border-radius: 50%;
     width:94px;
@@ -528,8 +577,8 @@ a{
     background-repeat: no-repeat;
     margin-left: 33px;
     margin-top: 10px;
-
 }
+
 #button-receitas{
     border-radius: 50%;
     width:94px;
@@ -541,6 +590,7 @@ a{
     background-repeat: no-repeat;
     margin-left: 9px;
 }
+
 #button-viagens{
     border-radius: 50%;
     width:94px;
@@ -551,5 +601,139 @@ a{
     background-image: url(/assets/home-travel.png);
     background-repeat: no-repeat;
     margin-left: 9px;
+    
 }
+
+#container-nav{
+    width:355px;
+    height:73.56px;
+    background-color: #A28CFA;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#container-nav #home{
+    width: 50px;
+    height: 50px;
+    background-image: url(/assets/apphome.svg);
+    background-color: #A28CFA;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    border:none;
+}
+
+#container-nav #calendario{
+    width: 50px;
+    height: 50px;
+    background-image: url(/assets/appcalendar.svg);
+    background-color: #A28CFA;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    border:none;
+}
+
+#container-nav #compras{
+    width: 50px;
+    height: 50px;
+    background-image: url(/assets/appcompras.svg);
+    background-color: #A28CFA;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    border:none;
+}
+
+#container-nav #limpeza{
+    width: 50px;
+    height: 50px;
+    background-image: url(/assets/applimpeza.svg);
+    background-color: #A28CFA;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    border:none;
+}
+
+#container-nav #filmes{
+    width: 50px;
+    height: 50px;
+    background-image: url(/assets/appfilmes.svg);
+    background-color: #A28CFA;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    border:none;
+}
+
+#container-nav #configuracao{
+    width: 50px;
+    height: 50px;
+    background-image: url(/assets/appconfiguracao.svg);
+    background-color: #A28CFA;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    border:none;
+}
+
+#container-nav #home:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#container-nav #calendario:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#container-nav #compras:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#container-nav #limpeza:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#container-nav #filmes:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#container-nav #configuracao:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.linha-branca-vertical{
+    width: 1px;
+    height: 50px;
+    background-color: white;
+    opacity: 0.4;
+}
+
+#container-home-movies{
+    width: 375px;
+    height: 667px;
+    background-color: #F7F7F7;
+    background-position: center;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
 
