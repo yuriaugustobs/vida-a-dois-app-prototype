@@ -4,13 +4,15 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 375px;
+    margin:auto;
 }
 
 #container{
     width: 375px;
     height: 667px;
     /* usaremos um background feito pelo UI designer, então usaremos um background-image para identificar o background */
-    background-image: url( /assets/background.jpg);
+    background-image: url( /assets/background-2.jpg);
     background-position: center;
     margin: 0 auto; /* faz ficar no meio da tela*/
 }
@@ -47,7 +49,7 @@ html, body {
 #containerLogin{
     width: 375px;
     height: 667px;
-    background-image: url(/assets/background-login.jpg);
+    background-image: url(/assets/background-2.jpg);
     background-position: center;
     margin: 0 auto;
     display:flex;
@@ -85,7 +87,7 @@ h1{
 #loginButton{
     width: 233px;
     height: 40px;
-    background-color:#6542AA;
+    background-color:#69239E;
     color: #FFFFFF;
     border-radius: 100px;
     border: none;
@@ -309,7 +311,7 @@ a{
 #formulariocadastro{
     font-family: Century Gothic;
     font-size:15px;
-    color: black;
+    color: rgb(86, 86, 86);
     font-weight: bold;
     margin-top: 20px;
     display: flex;
@@ -443,7 +445,7 @@ a{
 
 #container-title span{
     font-family: Century Gothic;
-    color: white;
+    color:#6542AA;
     font-size: 12px;
     font-weight: bold;
     margin-top:30px;
@@ -452,12 +454,12 @@ a{
 }
 
 /* a partir daqui é o css para o visual do app após estar logado */
-
 #container-home{
     width: 375px;
     height: 667px;
-    background-color: #7B62E4;
+    background-color:rgb(255, 255, 255);
     background-position: center;
+    border: 1px solid;
     margin: 0 auto;
     position: relative;
     display: flex;
@@ -474,13 +476,13 @@ a{
 /* css pra os botoes */
 
 #button-compras{
-    border-radius: 50%;
+    border-radius: 20px;
     width:157px;
     height:157px;
-    background-image: url();
+    background-color:white;
     background-position: center;
-    border:none;
-    background-image: url(/assets/home-compras.png);
+    background-image: url(/assets/1-lista.png);
+    border:1px solid #d2c9eb;
     background-repeat: no-repeat;
     margin-top: 36px;
     margin-left: 26px;
@@ -530,97 +532,101 @@ a{
 
 
 #button-calendario{
-    border-radius: 50%;
+    border-radius: 20px;
     width:157px;
     height:157px;
-    background-image: url();
+    background-color:white;
     background-position: center;
-    border:none;
-    background-image: url(/assets/home-calendar.png);
+    border:1px solid #d2c9eb;
+    background-image: url(/assets/1-calendar.png);
     background-repeat: no-repeat;
+    margin-top: 36px;
     margin-left: 7px;
 }
 
 #button-limpeza{
-    border-radius: 50%;
+    border-radius: 20px;
     width:157px;
     height:157px;
-    background-image: url();
+    background-color:white;
     background-position: center;
-    border:none;
-    background-image: url(/assets/home-cleaning.png);
+    border:1px solid #d2c9eb;
+    background-image: url(/assets/1-limpeza.png);
     background-repeat: no-repeat;
+    margin-top: 13px;
     margin-left: 26px;
-    margin-top: 17px;
 }
 
 #button-filmes{
-    border-radius: 50%;
+    border-radius: 20px;
     width:157px;
     height:157px;
-    background-image: url();
+    background-color:white;
     background-position: center;
-    border:none;
-    background-image: url(/assets/home-movies.png);
+    border:1px solid #d2c9eb;
+    background-image: url(/assets/1-videos.png);
     background-repeat: no-repeat;
+    margin-top: 13px;
     margin-left: 7px;
 }
 
 #button-financas{
-    border-radius: 50%;
+    border-radius: 20px;
     width:94px;
     height:94px;
-    background-image: url();
+    background-image: url(/assets/1-money.png);
     background-position: center;
-    border:none;
-    background-image: url(/assets/home-money.png);
+    border: solid 1px #d2c9eb;
+    background-color: white;
     background-repeat: no-repeat;
     margin-left: 33px;
     margin-top: 10px;
 }
 
 #button-receitas{
-    border-radius: 50%;
+    border-radius: 20px;
     width:94px;
     height:94px;
-    background-image: url();
+    background-image: url(/assets/1-food.png);
     background-position: center;
-    border:none;
-    background-image: url(/assets/home-food.png);
+    border:1px solid #d2c9eb;
+    background-color: white;
     background-repeat: no-repeat;
     margin-left: 9px;
 }
 
 #button-viagens{
-    border-radius: 50%;
+    border-radius: 20px;
     width:94px;
     height:94px;
-    background-image: url();
+    background-color: white;
+    background-image: url(/assets/1-viagens.png);
     background-position: center;
-    border:none;
-    background-image: url(/assets/home-travel.png);
+    border:1px solid #d2c9eb;
     background-repeat: no-repeat;
     margin-left: 9px;
-    
+
 }
 
 #container-nav{
     width:355px;
     height:73.56px;
-    background-color: #A28CFA;
+    background-color:white;
     margin-top: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
-}
+    /* codigo para esse container nav ficar no bottom do container "container home" */
+    bottom: 0;
+  }
 
 #container-nav #home{
     width: 50px;
     height: 50px;
     background-image: url(/assets/apphome.svg);
-    background-color: #A28CFA;
+    background-color: white;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 50%;
@@ -631,7 +637,7 @@ a{
     width: 50px;
     height: 50px;
     background-image: url(/assets/appcalendar.svg);
-    background-color: #A28CFA;
+    background-color: white;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 50%;
@@ -642,29 +648,19 @@ a{
     width: 50px;
     height: 50px;
     background-image: url(/assets/appcompras.svg);
-    background-color: #A28CFA;
+    background-color: white;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 50%;
     border:none;
 }
 
-#container-nav #limpeza{
-    width: 50px;
-    height: 50px;
-    background-image: url(/assets/applimpeza.svg);
-    background-color: #A28CFA;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 50%;
-    border:none;
-}
 
 #container-nav #filmes{
     width: 50px;
     height: 50px;
     background-image: url(/assets/appfilmes.svg);
-    background-color: #A28CFA;
+    background-color: white;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 50%;
@@ -675,7 +671,7 @@ a{
     width: 50px;
     height: 50px;
     background-image: url(/assets/appconfiguracao.svg);
-    background-color: #A28CFA;
+    background-color: white;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 50%;
@@ -695,12 +691,6 @@ a{
 }
 
 #container-nav #compras:hover{
-    opacity: 0.8;
-    transition: 0.3s;
-    cursor: pointer;
-}
-
-#container-nav #limpeza:hover{
     opacity: 0.8;
     transition: 0.3s;
     cursor: pointer;
@@ -726,14 +716,147 @@ a{
 }
 
 #container-home-movies{
-    width: 375px;
-    height: 667px;
-    background-color: #F7F7F7;
-    background-position: center;
-    margin: 0 auto;
-    position: relative;
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
 
+#container-minha-lista{
+    width: 187.5px;
+    height: 41.49px;
+    background-color: #7B62E4;
+    border-end-end-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+#container-minha-lista span{
+    color: white;
+    font-family: Century Gothic;
+    font-weight: bold;
+}
+
+#container-movies-list{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px red;
+    height: 460px;
+}
+
+.linha-horizontal {
+    width: 311px;
+    height: 1px;
+    border: none;
+    background-color: #cfcfcf;
+    margin-top: 17px;
+}
+
+.container-add-movie{
+    width:254.33px;
+    height:57.9px;
+    display:flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 5px;
+    background-color: #E6E7E8;
+    margin: auto;
+}
+
+#container-input{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1px;
+    height: 100%;
+    margin-left: 10px;
+    
+}
+
+#container-input #input-movie-name{
+width: 168.47px;
+height: 17.81px;
+border-radius: 5px;
+background-color: white;
+border:none;;
+}
+
+#container-input #input-movie-platform{
+width: 168.47px;
+height: 17.81px;
+border-radius: 5px;
+background-color: white;
+border:none;
+}
+
+#container-input #button-add-movie{
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    background-color: #A28CFA;
+    border: none;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Century Gothic;
+    font-size: 80px;
+    text-align: center;
+    position: absolute;
+    margin-left: 192.93px;
+}
+
+#container-input #button-add-movie:hover{
+    opacity: 0.8;
+    transition:0.2s;
+    cursor:pointer;
+}
+
+#container-input #input-shopping-item{
+width: 168.47px;
+height: 17.81px;
+border-radius: 5px;
+background-color: white;
+border:none;
+}
+
+#container-input #input-item-quantity{
+width: 168.47px;
+height: 17.81px;
+border-radius: 5px;
+background-color: white;
+border:none;
+}
+
+#container-input #button-add-shopping{
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    background-color: #A28CFA;
+    border: none;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Century Gothic;
+    font-size: 80px;
+    text-align: center;
+    position: absolute;
+    margin-left: 192.93px;
+}
+
+#container-input #button-add-shopping:hover{
+    opacity: 0.8;
+    transition:0.2s;
+    cursor:pointer;
+}
+
+#container-shopping-list{
+    width:100%;
+    height: 500.83px;
+
+}

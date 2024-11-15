@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Creator: CorelDRAW -->
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="2.682mm" height="2.5681mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-viewBox="0 0 24.8 23.75"
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="2.7582mm" height="2.6443mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 26.94 25.82"
  xmlns:xlink="http://www.w3.org/1999/xlink"
  xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
  <defs>
   <style type="text/css">
    <![CDATA[
-    .fil0 {fill:#FEFEFE;fill-rule:nonzero}
+    .str0 {stroke:#7B62E4;stroke-width:0.74;stroke-miterlimit:22.9256}
+    .fil0 {fill:#7B62E4;fill-rule:nonzero}
    ]]>
   </style>
  </defs>
  <g id="Camada_x0020_1">
   <metadata id="CorelCorpID_0Corel-Layer"/>
-  <path class="fil0" d="M12.38 0c-0.11,0 -0.21,0.04 -0.3,0.11l-11.88 9.27c-0.13,0.1 -0.2,0.25 -0.2,0.41 0,0.28 0.23,0.52 0.52,0.52 0.11,0 0.23,-0.04 0.32,-0.11l0.71 -0.56 0 13.58c0,0.28 0.23,0.52 0.52,0.52l7.15 0c0.03,0 0.06,0.01 0.08,0.01 0.03,0 0.06,-0 0.08,-0.01l6.03 0c0.03,0 0.06,0.01 0.08,0.01 0.03,0 0.06,-0 0.08,-0.01l7.15 0c0.28,0 0.52,-0.23 0.52,-0.52l0 -13.58 0.71 0.56c0.09,0.07 0.2,0.11 0.32,0.11 0.29,0 0.52,-0.23 0.52,-0.52 0,-0.16 -0.07,-0.31 -0.2,-0.41l-3.93 -3.07 0 -3.76 -3.1 0 0 1.34 -4.85 -3.78c-0.09,-0.07 -0.2,-0.11 -0.32,-0.11 -0.01,0 -0.01,0 -0.02,0zm0.02 1.17l9.82 7.66 0 13.87 -6.2 0 0 -9.82 -7.23 0 0 9.82 -6.2 0 0 -13.87 9.82 -7.66zm6.2 2.42l1.03 0 0 1.92 -1.03 -0.81 0 -1.11zm-8.78 10.33l5.17 0 0 8.78 -5.17 0 0 -8.78z"/>
+  <path class="fil0 str0" d="M13.45 0.37c-0.11,0 -0.22,0.04 -0.32,0.11l-12.55 9.79c-0.13,0.1 -0.21,0.26 -0.21,0.43 0,0.3 0.24,0.55 0.55,0.55 0.12,0 0.24,-0.04 0.34,-0.12l0.75 -0.59 0 14.35c0,0.3 0.25,0.54 0.55,0.54l7.55 0c0.03,0 0.06,0.01 0.09,0.01 0.03,0 0.06,-0 0.09,-0.01l6.37 0c0.03,0 0.06,0.01 0.09,0.01 0.03,0 0.06,-0 0.09,-0.01l7.55 0c0.3,0 0.55,-0.24 0.55,-0.55l0 -14.35 0.75 0.59c0.1,0.07 0.21,0.12 0.34,0.12 0.3,0 0.55,-0.25 0.55,-0.55 0,-0.17 -0.08,-0.33 -0.21,-0.43l-4.16 -3.24 0 -3.97 -3.27 0 0 1.41 -5.12 -4c-0.1,-0.07 -0.21,-0.11 -0.33,-0.11 -0.01,0 -0.01,0 -0.02,0zm0.02 1.24l10.37 8.09 0 14.65 -6.55 0 0 -10.37 -7.64 0 0 10.37 -6.55 0 0 -14.65 10.37 -8.09zm6.55 2.55l1.09 0 0 2.02 -1.09 -0.85 0 -1.17zm-9.28 10.91l5.46 0 0 9.28 -5.46 0 0 -9.28z"/>
  </g>
 </svg>

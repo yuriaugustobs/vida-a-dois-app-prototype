@@ -3,26 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>apphome</title>
+    <title>shopping</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="container-home"> 
-        <div id="container-title">
-            <button id="foto-perfil"></button>
-            <span> Seja bem-vindo de volta! </span>
+        <div id="container-home">
+
+        <div id="container-minha-lista">
+            <div id="minha-lista">
+            <span>LISTA DE COMPRAS</span>
+            </div>
+        </div>
+    
+        <div id="container-shopping-list">
+        <!-- aqui vai entrar a lista de COMPRAS porem vou colocar depois. -->
         </div>
 
-        <div class="white-line"></div>
+        <div class="container-add-movie">
+        <!-- BOTAO PARA ADICIONAR ITEM AS LISTAS -->
+            <div id="container-input">
 
-        <div id="container-buttons">
-        <button id="button-compras"></button>
-        <button id="button-calendario"></button>
-        <button id="button-limpeza"></button>
-        <button id="button-filmes" onclick="window.location.href='movies.html'"></button>
-        <button id="button-financas"></button>
-        <button id="button-receitas"></button>
-        <button id="button-viagens"></button>
+                <input type="text" placeholder="Nome do item" required id="input-shopping-item">
+                <label for="input-movie-name"></label>
+
+                <input type="text" placeholder="Quantidade" id="input-item-quantity">
+                <label for="input-item-quantity"></label>
+
+                <button id="button-add-shopping">+</button>
+
+            </div>
         </div>
         
         <nav id="container-nav">
@@ -42,6 +51,5 @@
         </nav>
 
     </div>
-        
 </body>
 </html>

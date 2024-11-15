@@ -7,40 +7,62 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+        <div id="container-home">
 
-    <div id="container-home-movies"> 
+        <div id="container-minha-lista">
+            <div id="minha-lista">
+            <span>FILMES E SÉRIES</span>
+            </div>
+        </div>
+    
+        <div id="container-movies-list">
+        <div class="linha-horizontal"></div>
+        <!-- aqui vai entrar a lista de filmes porem vou colocar depois. -->
+        <!-- aqui vai entrar a lista de filmes porem vou colocar depois. -->
+        <!-- aqui vai entrar a lista de filmes porem vou colocar depois. -->
+        <!-- aqui vai entrar a lista de filmes porem vou colocar depois. -->
+        <!-- aqui vai entrar a lista de filmes porem vou colocar depois. -->
+        <!-- aqui vai entrar a lista de filmes porem vou colocar depois. -->
+        <!-- aqui vai entrar a lista de filmes porem vou colocar depois. -->
+        </div>
 
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
+        <div class="container-add-movie">
+<!-- aqui vai entrar o botao para adicionar filmes na lista, 
+ ainda preciso pesquisar sobre como sera feito isso, acredito
+ que devo usar javascript e input para ser feito isso, talvez integrar
+ com uma api para buscar os filmes. para registrar o filme na lista, sera 
+ preciso usar o input, depois que o user clicar no botao adicionar, esse filme
+ sera registrado na lista de filmes; -->
+
+            <div id="container-input">
+
+                <input type="text" placeholder="Nome do filme" required id="input-movie-name">
+                <label for="input-movie-name"></label>
+
+                <label for="input-movie-platform"></label>
+                <input type="text" placeholder="Plataforma" required id="input-movie-platform">
+
+                <button id="button-add-movie">+</button>
+
+            </div>
+        </div>
+        
         <nav id="container-nav">
-            <button id="home"></button>
+            <button id="home" onclick="window.location.href='apphome.html'"></button>
             <div class="linha-branca-vertical"></div>
+
             <button id="calendario"></button>
             <div class="linha-branca-vertical"></div>
-            <button id="compras"></button>
+
+            <button id="compras" onclick="window.location.href='shopping.html'"></button>
             <div class="linha-branca-vertical"></div>
-            <button id="limpeza"></button>
+
+            <button id="filmes" onclick="window.location.href='movies.html'"></button>
             <div class="linha-branca-vertical"></div>
-            <button id="filmes"></button>
-            <div class="linha-branca-vertical"></div>
+            
             <button id="configuracao"></button>
         </nav>
 
     </div>
-        
 </body>
 </html>
